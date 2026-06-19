@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quantum-Enhanced Cloud Task Scheduling using Hybrid Optimization
 
 A research-quality Python prototype that simulates cloud resource scheduling and compares classical scheduling algorithms (FIFO, Round Robin) with a quantum-inspired optimization approach using QUBO (Quadratic Unconstrained Binary Optimization) and QAOA (Quantum Approximate Optimization Algorithm).
@@ -131,3 +132,7 @@ Plots are saved as PNG files in the `results/` directory for visual comparison.
 ## License
 
 Research prototype. Use and modify as needed for academic or research purposes.
+=======
+# QUANTUM_CLOUD_SCHEDULER
+This work presents a hybrid cloud task scheduling framework combining quantum optimization and machine learning. Using QUBO-based QAOA and Gradient Boosting Regression, it optimizes task allocation, reducing makespan and execution cost while improving resource utilization and SLA compliance.
+>>>>>>> 0102d3175886dbca97e8cccee405d1eaff7679eb
