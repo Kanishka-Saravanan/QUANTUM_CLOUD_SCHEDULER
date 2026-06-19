@@ -1,0 +1,318 @@
+[
+  {
+    "workload_size": 50,
+    "num_vms": 8,
+    "algorithm_results": {
+      "FIFO": {
+        "cost": {
+          "total_cost": 69.17622768156544,
+          "total_energy": 2605.977807793157
+        },
+        "performance": {
+          "makespan": 1361.4985639604688,
+          "mean_utilization": 0.12498362394161741,
+          "std_utilization": 0.330675586905138,
+          "min_utilization": 0.0,
+          "max_utilization": 0.9998689915329393,
+          "resource_imbalance": 0.9998689915329393
+        },
+        "sla": {
+          "sla_violations": 49,
+          "sla_violation_rate": 0.98
+        }
+      },
+      "Round Robin": {
+        "cost": {
+          "total_cost": 192.81813504810705,
+          "total_energy": 2145.542690066477
+        },
+        "performance": {
+          "makespan": 215.79064249673195,
+          "mean_utilization": 0.7885653545781739,
+          "std_utilization": 0.13169037317639654,
+          "min_utilization": 0.6176068931476706,
+          "max_utilization": 0.999019975282906,
+          "resource_imbalance": 0.3814130821352354
+        },
+        "sla": {
+          "sla_violations": 37,
+          "sla_violation_rate": 0.74
+        }
+      },
+      "Quantum Optimized": {
+        "cost": {
+          "total_cost": 190.63614782043342,
+          "total_energy": 2127.2107545273343
+        },
+        "performance": {
+          "makespan": 195.74108970866394,
+          "mean_utilization": 0.8693372698004119,
+          "std_utilization": 0.07465530873241712,
+          "min_utilization": 0.8006319782602471,
+          "max_utilization": 0.9990887562747537,
+          "resource_imbalance": 0.19845677801450656
+        },
+        "sla": {
+          "sla_violations": 41,
+          "sla_violation_rate": 0.82
+        }
+      },
+      "ML Scheduler": {
+        "cost": {
+          "total_cost": 88.38282482799579,
+          "total_energy": 504.1398748796049
+        },
+        "performance": {
+          "makespan": 386.9984045615242,
+          "mean_utilization": 0.125,
+          "std_utilization": 0.33071891388307384,
+          "min_utilization": 0.0,
+          "max_utilization": 1.0,
+          "resource_imbalance": 1.0
+        },
+        "sla": {
+          "sla_violations": 44,
+          "sla_violation_rate": 0.88
+        }
+      }
+    },
+    "timestamp": "2026-04-20T14:03:38.772848"
+  },
+  {
+    "workload_size": 100,
+    "num_vms": 8,
+    "algorithm_results": {
+      "FIFO": {
+        "cost": {
+          "total_cost": 157.0418754295612,
+          "total_energy": 2930.2147692402605
+        },
+        "performance": {
+          "makespan": 2611.980922258489,
+          "mean_utilization": 0.12499940990069004,
+          "std_utilization": 0.3307173526270508,
+          "min_utilization": 0.0,
+          "max_utilization": 0.9999952792055203,
+          "resource_imbalance": 0.9999952792055203
+        },
+        "sla": {
+          "sla_violations": 98,
+          "sla_violation_rate": 0.98
+        }
+      },
+      "Round Robin": {
+        "cost": {
+          "total_cost": 311.20718593901864,
+          "total_energy": 2965.3601670238377
+        },
+        "performance": {
+          "makespan": 401.76350858668854,
+          "mean_utilization": 0.8126573642855451,
+          "std_utilization": 0.10921592799852328,
+          "min_utilization": 0.669443839727788,
+          "max_utilization": 0.9999002496581275,
+          "resource_imbalance": 0.33045640993033953
+        },
+        "sla": {
+          "sla_violations": 88,
+          "sla_violation_rate": 0.88
+        }
+      },
+      "Quantum Optimized": {
+        "cost": {
+          "total_cost": 310.07243781890355,
+          "total_energy": 2889.961541070026
+        },
+        "performance": {
+          "makespan": 349.2720896558836,
+          "mean_utilization": 0.9347900494306542,
+          "std_utilization": 0.04894749452923526,
+          "min_utilization": 0.8665327734247843,
+          "max_utilization": 0.9997348834305585,
+          "resource_imbalance": 0.1332021100057742
+        },
+        "sla": {
+          "sla_violations": 91,
+          "sla_violation_rate": 0.91
+        }
+      },
+      "ML Scheduler": {
+        "cost": {
+          "total_cost": 39.32294089091579,
+          "total_energy": 733.719346214796
+        },
+        "performance": {
+          "makespan": 654.0312019121084,
+          "mean_utilization": 0.125,
+          "std_utilization": 0.33071891388307384,
+          "min_utilization": 0.0,
+          "max_utilization": 1.0,
+          "resource_imbalance": 1.0
+        },
+        "sla": {
+          "sla_violations": 95,
+          "sla_violation_rate": 0.95
+        }
+      }
+    },
+    "timestamp": "2026-04-20T14:03:40.674884"
+  },
+  {
+    "workload_size": 200,
+    "num_vms": 8,
+    "algorithm_results": {
+      "FIFO": {
+        "cost": {
+          "total_cost": 274.15250635401634,
+          "total_energy": 6526.895166422027
+        },
+        "performance": {
+          "makespan": 5217.911429719554,
+          "mean_utilization": 0.12499986389926636,
+          "std_utilization": 0.33071855379437937,
+          "min_utilization": 0.0,
+          "max_utilization": 0.9999989111941309,
+          "resource_imbalance": 0.9999989111941309
+        },
+        "sla": {
+          "sla_violations": 199,
+          "sla_violation_rate": 0.995
+        }
+      },
+      "Round Robin": {
+        "cost": {
+          "total_cost": 778.5560856938176,
+          "total_energy": 6891.283977650936
+        },
+        "performance": {
+          "makespan": 709.0352255801674,
+          "mean_utilization": 0.9198953662981655,
+          "std_utilization": 0.07047629949536563,
+          "min_utilization": 0.7770365834020454,
+          "max_utilization": 0.9998446245406889,
+          "resource_imbalance": 0.2228080411386435
+        },
+        "sla": {
+          "sla_violations": 190,
+          "sla_violation_rate": 0.95
+        }
+      },
+      "Quantum Optimized": {
+        "cost": {
+          "total_cost": 785.2245490692851,
+          "total_energy": 6922.285022880206
+        },
+        "performance": {
+          "makespan": 669.7234096699962,
+          "mean_utilization": 0.9738919218528714,
+          "std_utilization": 0.01739502707270363,
+          "min_utilization": 0.9375474398604077,
+          "max_utilization": 0.9995387224548227,
+          "resource_imbalance": 0.061991282594415
+        },
+        "sla": {
+          "sla_violations": 191,
+          "sla_violation_rate": 0.955
+        }
+      },
+      "ML Scheduler": {
+        "cost": {
+          "total_cost": 77.68017115068564,
+          "total_energy": 1849.3733300236097
+        },
+        "performance": {
+          "makespan": 1478.4756739103034,
+          "mean_utilization": 0.125,
+          "std_utilization": 0.33071891388307384,
+          "min_utilization": 0.0,
+          "max_utilization": 1.0,
+          "resource_imbalance": 1.0
+        },
+        "sla": {
+          "sla_violations": 194,
+          "sla_violation_rate": 0.97
+        }
+      }
+    },
+    "timestamp": "2026-04-20T14:03:44.654711"
+  },
+  {
+    "workload_size": 500,
+    "num_vms": 8,
+    "algorithm_results": {
+      "FIFO": {
+        "cost": {
+          "total_cost": 1602.2382663819328,
+          "total_energy": 19017.7709694765
+        },
+        "performance": {
+          "makespan": 12334.278576884319,
+          "mean_utilization": 0.12499990614502444,
+          "std_utilization": 0.3307186655661492,
+          "min_utilization": 0.0,
+          "max_utilization": 0.9999992491601956,
+          "resource_imbalance": 0.9999992491601956
+        },
+        "sla": {
+          "sla_violations": 499,
+          "sla_violation_rate": 0.998
+        }
+      },
+      "Round Robin": {
+        "cost": {
+          "total_cost": 2146.5799909938582,
+          "total_energy": 16345.75437187761
+        },
+        "performance": {
+          "makespan": 1715.4631334971273,
+          "mean_utilization": 0.8987565132536883,
+          "std_utilization": 0.06818458014931483,
+          "min_utilization": 0.7440872280702804,
+          "max_utilization": 0.9999946014186297,
+          "resource_imbalance": 0.25590737334834934
+        },
+        "sla": {
+          "sla_violations": 489,
+          "sla_violation_rate": 0.978
+        }
+      },
+      "Quantum Optimized": {
+        "cost": {
+          "total_cost": 2149.9430628034816,
+          "total_energy": 16246.187186923078
+        },
+        "performance": {
+          "makespan": 1561.2703092634167,
+          "mean_utilization": 0.9875187245471377,
+          "std_utilization": 0.006492515989548051,
+          "min_utilization": 0.9780163302001246,
+          "max_utilization": 0.9998755962504153,
+          "resource_imbalance": 0.02185926605029076
+        },
+        "sla": {
+          "sla_violations": 490,
+          "sla_violation_rate": 0.98
+        }
+      },
+      "ML Scheduler": {
+        "cost": {
+          "total_cost": 426.301997370149,
+          "total_energy": 5059.992586572811
+        },
+        "performance": {
+          "makespan": 3281.736403230254,
+          "mean_utilization": 0.125,
+          "std_utilization": 0.33071891388307384,
+          "min_utilization": 0.0,
+          "max_utilization": 1.0,
+          "resource_imbalance": 1.0
+        },
+        "sla": {
+          "sla_violations": 492,
+          "sla_violation_rate": 0.984
+        }
+      }
+    },
+    "timestamp": "2026-04-20T14:03:54.003987"
+  }
+]
